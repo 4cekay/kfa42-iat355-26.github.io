@@ -36,15 +36,44 @@
   </head>
 
   <body>
-    <h1>Assignment 3: Vega-Lite Introduction</h1>
+    <header><h1>Assignment 3: Vega-Lite Introduction</h1></header>
     <div class="container">
       <!-- visualization goes into this div you can create multiple divs and give them IDs -->
-      <div id="view"></div>
-      <div id="view2"></div>
-      <div id="view3"></div>
-      <div id="view4"></div>
-      <div id="view5"></div>
-      <div id="view6"></div>
+      <div class="view-container">
+        <h2 class="vis-title">
+          Visualization #1: Global Sales by Genre and Platform
+        </h2>
+        <div id="view"></div>
+      </div>
+
+      <div class="view-container">
+        <h2 class="vis-title">
+          Visualization #2: Sales Over Time by Platform and Genre
+        </h2>
+        <div class="view-sbs">
+          <div id="view2"></div>
+          <div id="view3"></div>
+        </div>
+      </div>
+
+      <div class="view-container">
+        <h2 class="vis-title">Visualization #3: Regional Sales vs. Platform</h2>
+        <div id="view4"></div>
+      </div>
+
+      <div class="view-container">
+        <h2 class="vis-title">Visualization #4: Tell Us a Visual Story</h2>
+        <div class="view-sbs">
+          <h3 class="sub-vis-title">
+            Electronic Arts: Game Release & Sales Count from 1980-2020
+          </h3>
+          <div id="view5"></div>
+          <h3 class="sub-vis-title">
+            Nintendo: Game Release & Sales Count from 1980-2020
+          </h3>
+          <div id="view6"></div>
+        </div>
+      </div>
     </div>
     <script type="module" src="vis.js"></script>
   </body>

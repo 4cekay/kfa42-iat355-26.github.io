@@ -55,7 +55,7 @@ fetchData().then(async ({ dataWide, dataLong }) => {
     .data(salesByPlatformGenreFlat)
     .encode(encodingSpec1.encoding)
     .width("container")
-    .height(400)
+    .autosize({ type: "fit", contains: "padding" })
     .toSpec();
 
   //Visualization #2 Cells:
@@ -99,7 +99,7 @@ fetchData().then(async ({ dataWide, dataLong }) => {
     .data(gamesSalesParsed)
     .encode(encodingSpec2_1.encoding)
     .width("container")
-    .height(400)
+    .autosize({ type: "fit", contains: "padding" })
     .toSpec();
 
   const encodingSpec2_2 = {
@@ -149,7 +149,7 @@ fetchData().then(async ({ dataWide, dataLong }) => {
     .data(gamesSalesParsed)
     .encode(encodingSpec2_2.encoding)
     .width("container")
-    .height(400)
+    .autosize({ type: "fit", contains: "padding" })
     .toSpec();
 
   //Visualization #3 Cells:
@@ -215,7 +215,7 @@ fetchData().then(async ({ dataWide, dataLong }) => {
     .data(salesByPlatformRegionFlat)
     .encode(encodingSpec3.encoding)
     .width("container")
-    .height(400)
+    .autosize({ type: "fit", contains: "padding" })
     .toSpec();
 
   //Visualization #4 Cells:
@@ -317,7 +317,7 @@ fetchData().then(async ({ dataWide, dataLong }) => {
     .data(gamesEAPerYear)
     .encode(encodingSpec4_1.encoding)
     .width("container")
-    .height(400)
+    .autosize({ type: "fit", contains: "padding" })
     .toSpec();
 
   //Nintendo Chart:
@@ -362,7 +362,7 @@ fetchData().then(async ({ dataWide, dataLong }) => {
     .data(gamesNintendoPerYear)
     .encode(encodingSpec4_2.encoding)
     .width("container")
-    .height(400)
+    .autosize({ type: "fit", contains: "padding" })
     .toSpec();
 
   render("#view", vlSpec1);

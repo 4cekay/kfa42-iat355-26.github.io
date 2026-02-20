@@ -303,6 +303,17 @@ h2.vispage-h2 {
   text-decoration: underline;
 }
 
+.assignment-link {
+  margin-bottom: 50px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+a.vispage-link {
+  color: #1b1a1b;
+}
+
 .svg-caption {
   background-color: #1b1a1b;
   color: aliceblue;
