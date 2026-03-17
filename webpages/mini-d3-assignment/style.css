@@ -1,0 +1,41 @@
+body {
+  background-color: #ffe6ef;
+  margin: 0px;
+  overflow-x: hidden;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Rubik", sans-serif;
+}
+
+h1 {
+  color: rgb(96, 96, 96);
+  text-decoration: underline;
+}
+
+#animation-container {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  border: 10px groove aliceblue;
+  background-color: azure;
+}
+
+#clear {
+  margin: 10px;
+  padding: 20px;
+  background-color: rgb(255, 203, 228);
+  font-size: larger;
+  border-style: groove;
+  border-width: 7px;
+  border-radius: 10px;
+  border-color: aliceblue;
+  color: rgb(255, 255, 255);
+}
+
+#clear:hover {
+  background-color: rgb(245, 211, 247);
+}
